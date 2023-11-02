@@ -1,0 +1,36 @@
+.ourcontent {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+}
+
+
+
+.ourcontent .content {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+}
+
+.ourcontent h2 {
+    color: #f8f8f8;
+}
+
+.ourcontent p {
+    color: #f8f8f8;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:940px) {
+    .ourcontent .content {
+    width: 100%;
+    }
+}
